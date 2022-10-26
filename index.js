@@ -1,18 +1,17 @@
 
         [
-       //  the data to create an organisation by super-admin /postcollegeaccess
-        {
-            "organisation_id": "069",
-            "organisation": "MADANAPALLE INSTITUTE OF TECHNOLOGY AND SCIENCE",
-            "mail": "karthik.kovi2001@gmail.con",
-            "createdby": "Shaik Amreen Kousar",
-            "shortname": "MITS",
-            "date": "24-4-22",
-            "type": "college",
-            "mailvalidation": "@mits.ac.in",
-            "maximumstudents": "500",
-            "arikyastatus": "true"
-        },
+            {
+"organisation_id": "069",
+  "organisation": "MADANAPALLE INSTITUTE OF TECHNOLOGY AND SCIENCE",
+  "mail": "karthik.kovi2001@gmail.con",
+  "createdby": "Shaik Amreen Kousar",
+  "shortname": "MITS",
+  "date": "24-4-22",
+  "type": "college",
+  "mailvalidation": "@mits.ac.in",
+  "maximumstudents": "500",
+  "arikyastatus": "true",
+},
         {
             "route":"/facultydetails/findoneAdmin",
             "request":["organisation_id","mail"],
